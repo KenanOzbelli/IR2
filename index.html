@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spliter Demo App</title>
+    <link href="./index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header class="spliter-header">
+        <div>
+            <h1 class="splitter-seo">Splitter</h1>
+            <h2 class="splitter-title">Spli</h2>
+            <h2 class="splitter-title">tter</h2>
+        </div>
+    </header>
+    <main>
+        <section class="splitter-container">
+            <div class="splitter-body">
+               <section class="splitter-input-section">
+                    <div class="splitter-input-heading">
+                        <label class="splitter-input-label" for="splitter-input">Bill</label>
+                        <input type="number" id="splitter-input" class="splitter-input" placeholder="0"/>
+                    </div>
+                    <div>
+                        <p class="splitter-tip-label">Select Tip %</p>
+                        <div class="splitter-tip-section">
+                            <div class="splitter-tip-container">
+                                <button class="splitter-tip-button">5%</button>
+                            </div>
+                            <div class="splitter-tip-container">
+                                <button class="splitter-tip-button">10%</button>
+                            </div>
+                            <div class="splitter-tip-container">
+                                <button class="splitter-tip-button">15%</button>
+                            </div>
+                            <div class="splitter-tip-container">
+                                <button class="splitter-tip-button">25%</button>
+                            </div>
+                            <div class="splitter-tip-container">
+                                <button class="splitter-tip-button">50%</button>
+                            </div>
+                            <div class="splitter-tip-container">
+                                <input type="number" class="splitter-tip-custom" placeholder="Custom"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="splitter-input-label" for="splitter-number-people">Number of People</label>
+                        <input type="number" id="splitter-number-people" class="splitter-input" placeholder="0" />
+                    </div>
+               </section>
+               <section class="splitter-result-section">
+                    <div class="splitter-tip-amount">
+                        <div>
+                            <h4 class="splitter-tip-header">
+                                Tip Amount
+                            </h4>
+                            <p class="splitter-tip-subheader">
+                                / Person
+                            </p>
+                        </div>
+                        <div class="splitter-price">$0.00</div>
+                    </div>
+                    <div class="splitter-total-amount">
+                        <div>
+                            <h4 class="splitter-total-header">
+                                Total Amount
+                            </h4>
+                            <p class="splitter-total-subheader">
+                                / Person
+                            </p>
+                        </div>
+                        <div class="splitter-price">$0.00</div>
+                    </div>
+                    <div class="splitter-reset-container">
+                        <button class="splitter-reset-button" disabled>RESET</button>
+                    </div>
+               </section>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
